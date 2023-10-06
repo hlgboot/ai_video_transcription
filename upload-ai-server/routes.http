@@ -31,7 +31,7 @@ POST http://localhost:3333/ai/complete
 Content-Type: application/json
 
 {
-    "template": "Gere um resumo sucinto da trasncrição do vídeo informada a seguir:'''{transcription}'''",
+    "prompt": "Gere um resumo sucinto da trasncrição do vídeo informada a seguir:'''{transcription}'''",
     "temperature": 0.5,
     "videoId": "8534248f-929e-4912-ba14-8a14796566a4"
 }
